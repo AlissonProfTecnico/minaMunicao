@@ -17,13 +17,15 @@ while True:
         idade = int(input("Digite sua idade: "))
         cpf = int(input("Digite seu CPF: "))
         print()
+        print(f"DADOS CADASTRADOS:")
+        print(f"NOME: [{nome}]")
+        print(f"IDADE: [{idade}]")
+        print(f"CPF: [{cpf}]")
+        print()
     
     if menu == 0:
         break
-print(f"DADOS CADASTRADOS:")
-print(f"NOME: [{nome}]")
-print(f"IDADE: [{idade}]")
-print(f"CPF: [{cpf}]")
+
 
 print()
 print("----------------  FIM DO PROGRAMA!!!  ----------------")
